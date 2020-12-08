@@ -7,4 +7,4 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=python37
-  - --allow-unauthenticated
+  - --allow=unauthenticated
