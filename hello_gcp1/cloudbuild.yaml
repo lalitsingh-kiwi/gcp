@@ -8,6 +8,6 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
-  - --service-account=662469587140@cloudbuild.gserviceaccount.com
+  - --service-account=lalit-kiwitech-sa@leasera-200719.iam.gserviceaccount.com
 
 
