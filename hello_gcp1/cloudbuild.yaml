@@ -9,5 +9,3 @@ steps:
   - --runtime=python37
   - --allow-unauthenticated
   - --service-account=lalit-kiwitech-sa@leasera-200719.iam.gserviceaccount.com
-
-
