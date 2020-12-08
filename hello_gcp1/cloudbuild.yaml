@@ -8,6 +8,6 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
-  - --service-account=leasera-200719@appspot.gserviceaccount.com
+  - --service-account=662469587140@cloudbuild.gserviceaccount.com
 
 
