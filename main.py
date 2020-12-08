@@ -1,2 +1,2 @@
 def hello_gcp1(request):
-    return "gcp1 test 2"
+    return "gcp1 test 3"
