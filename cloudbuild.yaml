@@ -8,4 +8,5 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
+  - --role=roles/iam.serviceAccountUser
   - --service-account=lalit-kiwitech-sa@leasera-200719.iam.gserviceaccount.com
