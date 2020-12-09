@@ -1,6 +1,13 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args:
+  - kms
+  - decrypt
+  - --ciphertext-file=hello_gcp1/.env.yaml.enc
+  - --plaintext-file=hello_gcp1/.env.yaml
+  - --location=global
+  - --keyring=Envs
+  - --key=hello-gcp-1-env
   - functions
   - deploy
   - hello_gcp1
