@@ -18,14 +18,14 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
-  - --env-vars-file=hello_gcp1/.env.yaml
+  - --env-vars-file hello_gcp1/.env.yaml
 
-#- name: 'gcr.io/cloud-builders/gcloud'
-#  args:
-#  - functions
-#  - deploy
-#  - hello_gcp2
-#  - --source=hello_gcp2
-#  - --trigger-http
-#  - --runtime=python37
-#  - --allow-unauthenticated
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - hello_gcp2
+  - --source=hello_gcp2
+  - --trigger-http
+  - --runtime=python37
+  - --allow-unauthenticated
