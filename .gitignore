@@ -1,2 +1,34 @@
-.idea/
-.idea/workspace.xml
+.DS_Store
+node_modules/
+/dist/
+/lib/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pyc
+leasera-person-dev-tools/ 
+leasera-dev-tools/
+heartland/ 
+
+# Editor directories and files
+*/.env.yaml
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*/venv/
+*/lib/
+*/env/
+*/.vscode
+/istream
+credentials.txt
+.history
+*.csv
+
+# Ignore Files
+credentials.yaml
+leasera-200719-85cf61a6627c.json
+units.csv
+
