@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c2a451-0822-4bfb-852d-86bfc1193d49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_gcp1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_gcp1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_gcp2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_gcp2/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudbuild.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="342">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -30,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello_gcp2/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -49,9 +60,9 @@
       <list>
         <option value="$PROJECT_DIR$/hello_gcp1/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/hello_gcp1/main.py" />
         <option value="$PROJECT_DIR$/hello_gcp2/main.py" />
-        <option value="$PROJECT_DIR$/cloudbuild.yaml" />
       </list>
     </option>
   </component>
@@ -78,6 +89,11 @@
             <path>
               <item name="gcp" type="b2602c69:ProjectViewProjectNode" />
               <item name="gcp" type="462c0819:PsiDirectoryNode" />
+              <item name="hello_gcp1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gcp" type="462c0819:PsiDirectoryNode" />
               <item name="hello_gcp2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -87,7 +103,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leasera/Leasera-Cloud-Functions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -163,10 +179,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello_gcp2/main.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudbuild.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="342">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -177,10 +201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbuild.yaml">
+    <entry file="file://$PROJECT_DIR$/hello_gcp2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="18">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
