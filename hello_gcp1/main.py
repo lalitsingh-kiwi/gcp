@@ -1,2 +1,6 @@
+import requests
+
 def hello_gcp1(request):
-    return "gcp1 test 103"
+    req = requests.get('https://google.com')
+    return req.status_code
+    # return "gcp1 test 103"
