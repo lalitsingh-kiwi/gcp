@@ -8,6 +8,9 @@ steps:
   - --location=global
   - --keyring=Envs
   - --key=hello-gcp-1-env
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
   - functions
   - deploy
   - hello_gcp1
@@ -15,6 +18,8 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
+
+
 
 #- name: 'gcr.io/cloud-builders/gcloud'
 #  args:
