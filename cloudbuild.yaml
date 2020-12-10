@@ -29,3 +29,14 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
+
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - hello_gcp_pub_sub
+  - --source=hello-gcp-pub-sub
+  - --trigger-topic
+  - --runtime=python37
+  - --service-account=lead-comment-activity-sa@leasera-200719.iam.gserviceaccount.com

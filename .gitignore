@@ -12,7 +12,7 @@ heartland/
 
 # Editor directories and files
 */.env.yaml
-.idea
+.idea/
 .vscode
 *.suo
 *.ntvs*
