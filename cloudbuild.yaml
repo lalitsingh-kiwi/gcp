@@ -37,6 +37,6 @@ steps:
   - deploy
   - hello_gcp_pub_sub
   - --source=hello-gcp-pub-sub
-  - --trigger-topic
+  - --trigger-topic=hello-gcp-pub-sub
   - --runtime=python37
   - --service-account=lead-comment-activity-sa@leasera-200719.iam.gserviceaccount.com
