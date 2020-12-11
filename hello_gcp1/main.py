@@ -18,4 +18,4 @@ def hello_gcp1(request):
     if name:
         publish_test(str(name))
 
-    return str(topic_name)
+    return "gcp101"
