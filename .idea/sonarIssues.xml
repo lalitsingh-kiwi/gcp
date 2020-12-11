@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leasera/Leasera-Cloud-Functions/application_manager/schemas/update_application.py">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
